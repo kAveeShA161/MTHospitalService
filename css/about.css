@@ -1,0 +1,106 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+.about-us{
+    width: 100%;
+    min-height: 100vh;
+    background: #e9f0f8;
+    padding: 90px 0px;
+}
+
+.pic{
+    height: auto;
+    width: 302px;
+}
+.about{
+    width: 1130px;
+    max-width: 85;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*display content in the middle*/
+}
+.text{
+    width: 560px;
+
+}
+.text h2{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.link{
+    margin-top: 30;
+
+}
+.contact{
+    text-decoration: none;
+    /*romeve line under the link*/
+    font-size: 18px;
+    color: #fff;
+    background: #4070f4;
+    padding: 8px 25px;
+    border-radius: 6px;
+    /*round the corners of the border box*/
+    border: none;
+    transition: 0.5;
+    /*time duration*/
+}
+.contact:hover{
+    background: #000;
+    /*box color change*/
+}
+
+
+/*css for table*/
+
+.table-body {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+
+.table-body h1 {
+    text-decoration-line: underline;
+    /*underline the topic*/
+    color: #010763;
+}
+
+.content-table {
+    border-collapse: collapse;
+    /*seperate rows*/
+    margin: 25px;
+    font-size: 18px;   
+}
+
+.content-table thead tr {
+    background-color: #010763;
+    color:#949af7;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #2b2b2c;
+}

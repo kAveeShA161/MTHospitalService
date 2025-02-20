@@ -1,0 +1,138 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f3e7d3;
+    font-family: century gothic;
+    display: flex;
+    /*add space in left side*/
+    justify-content: center;
+    align-items: center;   
+}
+
+.grid {
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    /*display cards one by one horizontaly*/
+}
+
+.grid-item {
+    background-color: #fdf8e8;
+    border-radius: 4px;
+    box-shadow: 0 20px 20px #272525;
+    cursor: pointer;
+    /*when cursor comes in to the card it becomes to a pointer*/
+    transition: 0.2s;
+}
+
+.grid-item:hover {
+    transform: translateY(2%);
+    /*when cursor comes in to the card , card moves down a bit*/
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+    /*space between content and the card border is 15px, from left side and top*/
+}
+
+.card-header {
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+}
+
+.card-text {
+    font-size: 17px;
+    line-height: 25px;
+    color: #3d3d3d;
+}
+
+
+/*css for channel here buttons*/
+.card-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #063d2b;
+    background-color: #7adbbb;
+    border: none;
+    border-radius: 4px;
+    transition: 0.2s;
+    /*it takes 0.2 seconds to change color of the button when cursor touchs it */
+    cursor: pointer;
+}
+
+.card-btn:hover,
+.card-btn:active {
+    background-color: #53c281;
+}
+
+.button {
+    position: absolute;
+    /*button gose to the right top corner*/
+    top: 10%;
+    left: 85%;
+}
+
+
+/*css for home page button*/
+.btn {
+    border: 2px solid #eb8b1e;
+    border-radius: 4px;
+    padding: 10px 10px;
+    color: #e6390e;
+    font-size: 20PX;
+    font-weight: bold;
+    text-decoration: none;
+    /*removes the line under the link */
+    transition: 0.6s;
+}
+
+.btn:hover {
+    background-color: #d48e0b;
+    color: #fcfcfc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

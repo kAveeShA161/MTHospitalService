@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #010763;
+    color: #bfc3fa;
+    display: flex;
+    /*rihgt side and left side of the footer display in the same row*/
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer-right{
+    flex-grow: 2;
+    /*gap between left side and right side*/
+}
+
+.footer div h3{
+    font-weight: 300;
+    /*bold*/
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.footer-left a {
+    display: block;
+    /*display links line by line*/
+    text-decoration: none;
+    text-align: left;
+    color:#949af7;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-left a:hover {
+    color:aqua;
+}
+
+.footer-right p {
+    text-align: right; 
+}
+
+.footer-right h3 {
+    text-align: right;
+}
+
+.social-icons i {
+    font-size: 26px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/*css for table*/
+.table-body {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.table-body h1 {
+    text-decoration-line: underline;
+    color: #010763;
+}
+
+.content-table a {
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+.content-table a:hover {
+    color: #302085;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    min-width: 400px;
+}
+
+.content-table thead tr {
+    background-color: #010763;
+    color:#949af7;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #2b2b2c;
+}
+
+
+
+
+
+
+
+

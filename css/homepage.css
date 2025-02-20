@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/homeimage.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E7F0BD;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    background-color: #E7F0BD;
+    color: #110949;
+}
+
+ul li.active a {
+    background-color: #E7F0BD;
+    color: #110949;
+}
+
+.main {
+    max-width: 1200  px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #E7F0BD;
+    font-size: 100 px;
+    padding: 2px 10px;
+    border: 5px solid #E7F0BD;
+}
+
+
+/*css for register here and online pharmacy buttons*/
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn {
+    border: 1px solid #E7F0BD;
+    padding: 10px 30px;
+    color: #E7F0BD;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    background-color: #E7F0BD;
+    color: #110949;
+}
